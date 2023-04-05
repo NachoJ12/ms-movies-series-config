@@ -11,11 +11,12 @@ spring:
     port: 5672
   zipkin:
     baseUrl: http://localhost:9411/
-  mongodb:
-    #embedded:
-    #version: 4.0.2
+  #mongodb:
+  #embedded:
+  #version: 4.0.2
   data:
     mongodb:
+      #authentication-database: admin
       username: usr-series-mongo
       password: pwd-series-mongo
       database: series-dev-mongo
